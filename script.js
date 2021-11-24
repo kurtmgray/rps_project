@@ -1,6 +1,5 @@
-console.log("hello world")
-// make a function computerPlay() that will randomly return rock, paper, or scissors
 
+// make a function computerPlay() that will randomly return rock, paper, or scissors
 const computerPlay = () => {
     let num = Math.floor(Math.random() * 3)
     if(num === 0){
@@ -16,8 +15,7 @@ console.log(computerPlay())
 // make a function that plays a round() of the game
     // should take two parameters playerSelection and computerSelection
         // playerSelection should be case-insensitive
-        // use prompt() to get use input
-    //  return a string that declares the winner (or something more useful?)
+    //  return a rounnd poinnt to an appropriate variable
 let playerScore = 0
 let computerScore = 0
 const round = (playerSelection, computerSelection) => {
@@ -42,13 +40,12 @@ const round = (playerSelection, computerSelection) => {
         console.log('Invalid choice, try again.')
     }             
 }
-// round()
-// console.log(playerScore, computerScore)
-    // make a new function called game() that 
-    // plays 5 rounds, 
-    // keeps score, and 
-    // reports a winner or loser at the end
-        // use console.log() to declare the winner
+
+// make a new function called game() that 
+// plays 5 rounds, 
+// keeps score, and 
+// reports a winner or loser at the end
+    // use console.log() to declare the winner
 
 const game = () => {
     for(i = 0; i <= 5; i++){
